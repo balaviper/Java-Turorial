@@ -1,9 +1,9 @@
-package Practice.data;
+package Basics;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Mainnn");
+        System.out.println("hiiii team");
     }
     
 }

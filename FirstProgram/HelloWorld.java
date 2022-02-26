@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class HelloWorld {
     public static void main(String[] args) {
 
-        //Scanner sc = new Scanner(System.in);// in  is for input
+        //Scanner sc = new Scanner(System.in); // in  is for input
+
+        //1. rules for variable no number in starting caps, small, number at end
 
         byte b = 127;
         short s = 1011;
@@ -16,14 +18,23 @@ public class HelloWorld {
         double d = 1243234.2435245324534;
 
         long c = x;//Widening Casting 
-
         int xx = 13; //Narrowing Casting
-        char chh = (char) xx;
 
+        char chh = (char) xx;
 
         boolean bol = false;
 
-        System.out.println(bol); //out is for output 
+        System.out.println(bol); //out is for output
+        System.out.print("My age is " + x);
+        System.out.print("\nJust printing second"); //\n next line
+        System.out.print("\nJust\tPrint\n"); //tab -\t 4 space
+        System.out.println("My Name is \"Bala\""); // \"
+        System.out.println("D:\\Java\\"); // 
+        System.out.println("My name is " + b + " And my name is bala");
+        //System.out.printf(format, args) 
+        System.out.printf("My name is %d and my name is %s \n Float %f", x, "Bala", f); //printf formating
+        
+
     }
 }
 

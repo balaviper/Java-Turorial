@@ -38,14 +38,13 @@ Task 2 :
 
 	Calculate Compound Interest :
 	
-	(If u dont know the Formula Search it in google)
+	Formula  = P X (1 + R/100)^t (Use this Formula)
 	
 	Get all the following data and store it in respective data type variable
 	And calculate the Final Amount A. 
 
 	P	=	initial principal balance
 	r	=	interest rate
-	n	=	number of times interest applied per time period
 	t	=	number of time periods elapsed
 
 	(Hint 1 : If u need to do any power operation Use Math.pow() function)
@@ -59,16 +58,13 @@ Task 2 :
 
 	Enter the interest rate:
 	15.50
-	
-	Enter the number of times interest applied
-	2
 
 	Enter the time period:
 	5
 
 	Sample Output :
 
-	Final Amount : 211266.65
+	Final Amount : 102773.21
 
 	
 	

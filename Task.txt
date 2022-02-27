@@ -27,7 +27,7 @@ Task 1 :
 
 	Sample Output 2:
 
-	7 Hours 27 Min
+	7 Hours 37 Min
 
 
 

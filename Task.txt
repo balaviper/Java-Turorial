@@ -11,14 +11,26 @@ Task 1 :
 	(Hint 1 : Use Scanner function to get input Distance)
 	(Hint 2 : Think the logic of converting Hours to Minutes)
 
-	Sample Input: 
+	Sample Input 1: 
 	
 	Enter the Distance : 
 	780
 
-	Sample Output:
+	Sample Output 1:
 
 	6 Hours 10 Min
+
+	Sample Input 2: 
+
+	Enter the Distance :
+	970
+
+	Sample Output 2:
+
+	7 Hours 27 Min
+
+
+
 
 ***************************************************************************************
 

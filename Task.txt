@@ -1,4 +1,4 @@
-IMPORTANT NOTE : The Output Should be exactly as the sample Output
+IMPORTANT NOTE : The Output and the Input Should be exactly as the sample Output and Input
 				 Even a extra space in Output will leads to Failure of test cases
 
 Task 1 : 
@@ -24,7 +24,7 @@ Task 1 :
 
 Task 2 :
 
-	Calculate Compound Intrest :
+	Calculate Compound Interest :
 	
 	(If u dont know the Formula Search it in google)
 	

@@ -27,16 +27,39 @@ public class Operators {
         // double simple_intrest = (p*n*r)/100;
         // System.out.println("Simple Intrest : " + simple_intrest);
 
-        int v1 = 34;
-        int v2 = 35;
-        System.out.println("Greater : " + (v1!=v2));
+        // int v1 = 34;
+        // int v2 = 35;
+        // System.out.println("Greater : " + (v1!=v2));
 
-        //Logical
-        boolean and = (v1!=v2) && (11>16);
-        boolean or = (v1==v2) || (11>16);
+        // //Logical
+        // boolean and = (v1!=v2) && (11>16);
+        // boolean or = (v1==v2) || (11>16);
 
-        System.out.println("Logical And " + and );
-        System.out.println("Logical Or " + or );
+        // System.out.println("Logical And " + and );
+        // System.out.println("Logical Or " + or );
+
+        //Inc and Dec
+
+        int val = 100;
+        ++val;
+
+        System.out.println(++val); // pre increment 
+        System.out.println(val++); //102 post increment 
+        //103
+
+
+        val--;
+        --val;
+        System.out.println(val);
+
+
+        int n1 =12;
+        int n2 =14;
+        int greater = (n1<n2) ? 100 : n2; //------ ? --- :----
+        
+
+        System.out.println(greater);
+
     }
     
 }

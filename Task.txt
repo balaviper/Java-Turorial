@@ -5,7 +5,7 @@ Task 1 :
 
     A train starts from A and stops at B. Speed of the train is 130km/hr.
     train stops at 5 stations, and waits 2 min in every stop.
-    Distance between A and B is N(Get value from user).
+    Distance between A and B is D(Get value from user).
 	Calculate the time taken by the train to reach the destination.
      
 	(Hint 1 : Use Scanner function to get input Distance)

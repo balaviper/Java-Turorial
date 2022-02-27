@@ -22,6 +22,7 @@ public class HelloWorld {
 
         char chh = (char) xx;
 
+
         boolean bol = false;
 
         System.out.println(bol); //out is for output
@@ -32,8 +33,15 @@ public class HelloWorld {
         System.out.println("D:\\Java\\"); // 
         System.out.println("My name is " + b + " And my name is bala");
         //System.out.printf(format, args) 
-        System.out.printf("My name is %d and my name is %s \n Float %f", x, "Bala", f); //printf formating
+        System.out.printf("My name is %d and my name is %s \n Float %f\n", x, "Bala", f); //printf formating
         
+
+        char abb = 'h';
+        int chaa = abb;
+
+        int var = 35;
+        char g = (char) var;
+        System.out.println(g);
 
     }
 }

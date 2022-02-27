@@ -60,6 +60,10 @@ public class Operators {
 
         System.out.println(greater);
 
+        int b1 = 5;
+        int b2 = 3;
+        System.out.println(b1&b2);  //binary and & , binary or |, binary XOR ^;
+
     }
     
 }

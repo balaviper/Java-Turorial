@@ -1,0 +1,65 @@
+IMPORTANT NOTE : The Output Should be exactly as the sample Output
+				 Even a extra space in Output will leads to Failure of test cases
+
+Task 1 : 
+
+    A train starts from A and stops at B. Speed of the train is 130km/hr.
+    train stops at 5 stations, and waits 2 min in every stop.
+    Distance between A and B is N(Get value from user).
+	Calculate the time taken by the train to reach the destination.
+     
+	(Hint 1 : Use Scanner function to get input Distance)
+	(Hint 2 : Think the logic of converting Hours to Minutes)
+
+	Sample Input: 
+	
+	Enter the Distance : 
+	780
+
+	Sample Output:
+
+	6 Hours 10 Min
+
+***************************************************************************************
+
+Task 2 :
+
+	Calculate Compound Intrest :
+	
+	(If u dont know the Formula Search it in google)
+	
+	Get all the following data and store it in respective data type variable
+	And calculate the Final Amount A. 
+
+	P	=	initial principal balance
+	r	=	interest rate
+	n	=	number of times interest applied per time period
+	t	=	number of time periods elapsed
+
+	(Hint 1 : If u need to do any power operation Use Math.pow() function)
+	(Hint 2 : use printf and limit the decimal point by using %.2f)
+
+
+	Sample Input :
+	
+	Enter the initial principal balance:
+	50000
+
+	Enter the interest rate:
+	15.50
+	
+	Enter the number of times interest applied
+	2
+
+	Enter the time period:
+	5
+
+	Sample Output :
+
+	Final Amount : 211266.65
+
+	
+	
+	
+	
+	

@@ -8,6 +8,7 @@ public class Conditional {
         int arr[] = {1,2,3,4,5,7}; // direct init
         
         int arr1[] = new int[5]; // declaration
+        int l = arr.length;
 
         arr1[0] = 11;
         arr1[1] = 12;
@@ -34,15 +35,23 @@ public class Conditional {
         n1 = "Bala";
         System.out.println(n1.length());
 
+        int r = 4;
 
+        //t = 780/130
         // Task 1 : 
         //Arithmatic operator: 
         // A train starts from A and stops at B. Speed of the train is 130km/hr.
         //In between stops between a and b is 5, and train stops 2 min in every stop.
-        //Distance between A and B is 780km. How much time it takes to reach B from A.
+        //Distance between A and B is n. How much time it takes to reach B from A.
+        //(use variables dont use constant values)
+
+        //Sample Input : 
+        //Enter the speed of the train.
+        //750
         
         //Task 2 :
-        // Calculate Compound Intrest : 
+        //Calculate Compound Intrest :
+        //
 
 
 

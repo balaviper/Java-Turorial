@@ -66,6 +66,53 @@ Task 2 :
 
 	Final Amount : 102773.21
 
+
+***********************************************************************************
+
+Task 3:
+
+	There are five college students. Declare an int array of size exactly [5].
+	You have to get five student's age one by one and store it in the array.
+	Check if the student's age which is in "3RD position" of the array is eligible for Voting.
+	If yes print he is eligible for Voting. If no, Print not eligible.
+
+	***IMPORTANT NOTE : USE ONLY CONDITIONAL OPERATOR inside print statement to validate age.***
+
+	Sample Input 1 :
+
+	Enter the age of the Students :
+	17
+	16
+	19
+	17
+	20
+
+	Sample Output 1 :
+
+	The third student is eligible for voting.
+
+	(Explanation : Third student's age is 19. Which is greater than 18 so he is eligible.)
+
+	Sample Input 2 :
+
+	Enter the age of the Students :
+	16
+	18
+	15
+	17
+	21
+
+	Sample Output 2 :
+
+	The third student is not eligible for voting.
+
+
+
+
+
+
+
+
 	
 	
 	

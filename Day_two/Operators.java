@@ -55,14 +55,14 @@ public class Operators {
 
         int n1 =12;
         int n2 =14;
-        int greater = (n1>n2) ? n1 : n2; //------ ? --- :----
+        int greater = (n1>n2) ? n1 : n2; //------ ? --- :---- // Conditional operator.
         
 
         System.out.println(greater);
 
         int b1 = 5;
         int b2 = 3;
-        System.out.println(b1&b2); //binary and & , binary or |, binary XOR ^;
+        System.out.println((14>18)? "Yes" : "No"); //binary and & , binary or |, binary XOR ^;
 
     }
     

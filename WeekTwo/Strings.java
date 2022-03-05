@@ -9,7 +9,7 @@ public class Strings {
         System.out.println(name.charAt(1)); //accesing by index no
         System.out.println(name.substring(2));
         System.out.println(name.substring(2,7)); // substring
-        System.out.println(name.equals("Bala"));
+        System.out.println(name.equals("Bala")); //
 
         String n1 = "KAALA";
         String n2 = "kaala";

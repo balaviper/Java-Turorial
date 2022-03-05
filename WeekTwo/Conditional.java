@@ -34,13 +34,21 @@ public class Conditional {
 
         // }
 
-        if(num1==num2){
-            //Statement 
-        }
-        else if(num1>num2){
-            //Statat
-        }
-        else if (){
+        // if(num1==num2){
+        //     //Statement 
+        // }
+        // else if(num1>num2){
+        //     //Statat
+        // }
+        // else if (){
+            
+        // }
+        // else{
+
+        // }
+        String n1 = "KAALA";
+        String n2 = "kaala";
+        if(n1.equalsIgnoreCase(n2)){
             
         }
         else{

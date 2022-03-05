@@ -1,4 +1,4 @@
-package Day_two;
+package WeekOne.Day_two;
 
 public class Conditional {
     public static void main(String[] args) {

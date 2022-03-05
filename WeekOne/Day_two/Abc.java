@@ -1,6 +1,7 @@
 package WeekOne.Day_two;
 
 import java.util.Scanner;
+import WeekTwo.Functions;
 
 public class Abc {
 
@@ -16,7 +17,8 @@ public class Abc {
         s = temp;
         System.out.println("After Swapping " + c +" "+ s);
 
-
+        Functions f1 = new Functions();
+        f1.printing();
     }
     
 }

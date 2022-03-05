@@ -31,6 +31,8 @@ public class Strings {
 
         //********String Builder***********/
 
+        Functions f = new Functions();
+        f.printing();
     }
     
 }

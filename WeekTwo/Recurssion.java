@@ -3,21 +3,24 @@ package WeekTwo;
 public class Recurssion {
 
     public static int fac1(int n) { // 1
-        if (n <= 0) return 1;
+        if (n <= 0) return 1; 
         else {
             System.out.println(n);
             return fac1(n-1)  * n;
-        } // 
+        } //
     }
     
-    public static String reverseString(String str){
+    public static String reverseString(String str){ // very very important *****
         if(str.isEmpty()){
-            System.out.println("loosu payalayae string is empty");
+
             return str;
         }
+
         else{
+
             System.out.println(str);
             return reverseString(str.substring(1)) + str.charAt(0);
+            
         }
     }    
 

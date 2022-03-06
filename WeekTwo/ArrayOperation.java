@@ -27,12 +27,39 @@ public class ArrayOperation {
         return newArr;
     }
 
+    public static int[] add_beginging(int[] oldarr, int newElement){
+        int newArr[] = new int[oldarr.length + 1];
+        newArr[0] = newElement;
+        for (int i = 0; i<oldarr.length; i++) {
+            newArr[i+1] = oldarr[i];
+        }
+        return newArr;
+    }
+
+    public static int[] add_inbetween(int[] oldarr, int pos, int newElement){
+        int newArr[] = new int[oldarr.length + 1];
+        
+        for (int i = 0; i<newArr.length; i++) {
+            if(i<pos-1){
+                newArr[i] = oldarr[i];
+            }
+            else if(i==pos-1){
+                newArr[pos-1] = newElement;
+            }
+            else{
+                newArr[i] = oldarr[i - 1];
+            }
+        }
+        return newArr;
+    }
+
+
 
     public static void main(String[] args) {
          
         int arr1[] = {4,6,2,1,4,8}; // array is is always fixed size
     
-        arr1 = add_end(arr1, 60);
+        arr1 = add_inbetween(arr1,5, 60);
         
         // arr1 = reverse(arr1);
         for (int i : arr1) {

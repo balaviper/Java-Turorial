@@ -1,0 +1,54 @@
+
+
+Task 1 : 
+
+        Ravi bought a new car, now he want to choose a register number plate for his car.
+        Ravi likes Prime Numbers very much, so he wants to choose his number as
+        the sum of all the digits in the number plate should be a factor of prime number.
+        Write a program which gives the count of lucky numbers in the given list of numbers.
+
+        (Hint 0 : Create two BOOLEAN function isLucky(int num) and isPrime(int num) which should return true or false)
+        (Hint 1 : use while loop, arrays, arithmatic operators to make program easy)
+
+
+        Sample Input 1 :
+
+            Request No of numbers you want to check :
+            5
+
+            Enter 5 elements to check for lucky :
+            2468
+            3143
+            1042
+            2313
+            6128
+
+        Sample Output 1 :
+
+            Count of lucky numbers : 3
+
+
+    Explanation : 
+
+    Sum of digits in 2468 : 2 + 4 + 6 + 8 = 20 => not a prime number
+    Sum of digits in 3143 : 3 + 1 + 4 + 3 = 11 => is a prime number
+    Sum of digits in 1042 : 1 + 0 + 4 + 2 = 7 => is a prime number
+    Sum of digits in 2313 : 2 + 3 + 1 + 3 = 9 => not a prime number
+    Sum of digits in 6128 : 6 + 1 + 2 + 8 = 17 => is a prime number
+
+    So, total prime count is 3 
+
+    Sample Input 2 :
+
+            Request No of numbers you want to check :
+            3
+
+            Enter 3 elements to check for lucky :
+            2405
+            1111
+            1211
+            
+
+        Sample Output 2 :
+
+            Count of lucky numbers : 2    

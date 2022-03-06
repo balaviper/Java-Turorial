@@ -1,5 +1,7 @@
 package WeekTwo;
 
+import java.util.Arrays;
+
 public class ArrayOperation {
 
     public static int[] reverse(int[] arr){
@@ -38,7 +40,7 @@ public class ArrayOperation {
 
     public static int[] add_inbetween(int[] oldarr, int pos, int newElement){
         int newArr[] = new int[oldarr.length + 1];
-        
+
         for (int i = 0; i<newArr.length; i++) {
             if(i<pos-1){
                 newArr[i] = oldarr[i];
@@ -54,12 +56,15 @@ public class ArrayOperation {
     }
 
 
-
     public static void main(String[] args) {
          
         int arr1[] = {4,6,2,1,4,8}; // array is is always fixed size
     
         arr1 = add_inbetween(arr1,5, 60);
+
+        Arrays.sort(arr1);
+        Arrays.binarySearch(arr1 , 60);
+    
         
         // arr1 = reverse(arr1);
         for (int i : arr1) {

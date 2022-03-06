@@ -30,9 +30,6 @@ public class Strings {
         sb.insert(9, "Z");
 
         //********String Builder***********/
-
-        Functions f = new Functions();
-        f.printing();
     }
     
 }

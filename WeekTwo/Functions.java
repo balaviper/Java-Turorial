@@ -24,8 +24,9 @@ public class Functions {
         
         Scanner sc = new Scanner(System.in);
 
-        Functions f = new Functions(); // ??? default constructor , constructor invokes automatically
+        Functions f = new Functions(); // ??? default constructor() ,constructor invokes automatically
         Functions f1 = new Functions(34); //
+
         int x = 34; // local variable
         f.increment();
         System.out.println(f.x);

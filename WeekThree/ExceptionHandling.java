@@ -15,16 +15,16 @@ public class ExceptionHandling {
 
     }
 
-    public static void Exp(){
+    public static void Exp() throws Exception{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter the no of students");
-            try {
+            //try {
                 int no = sc.nextInt();
             System.out.println("Wrrong formate of input");
-            } catch (Exception e) {
+            //} catch (Exception e) {
                 System.out.println("Final block");
-            }
+            //}
             sc.nextLine();
         //
             int value = sc.nextInt();
@@ -32,6 +32,13 @@ public class ExceptionHandling {
     public static void main(String[] args) {
         
         ThrowIng();
+
+        try {
+            Exp();
+        } catch (Exception e) {
+            
+        }
+        
 
 
     }

@@ -26,7 +26,7 @@ public class FilesHandling {
         }
     }
 
-    public void writing()  throws Exception{
+    public void writing()  throws Exception {
         FileWriter fw = new FileWriter("D:\\Documents\\FileHandlingTest\\Sample.txt"); //writer class
         
         fw.write("First sentence");
@@ -37,8 +37,7 @@ public class FilesHandling {
 
 
     public static void main(String[] args) throws Exception {
-
-
+        
         File file = new File("D:\\Documents\\FileHandlingTest\\Sample.txt");
 
         Scanner sc = new Scanner(file);

@@ -3,8 +3,8 @@ package WeekThree;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ExceptionHandling {
 
+public class ExceptionHandling {
 
     public static void ThrowIng(){
         Scanner sc = new Scanner(System.in);
@@ -32,10 +32,11 @@ public class ExceptionHandling {
     public static void main(String[] args) {
         
         ThrowIng();
-
         try {
             Exp();
-        } catch (Exception e) {
+
+            //anythong
+        } catch (Exception obj) {
             
         }
         

@@ -2,6 +2,7 @@ package OOPs.Inheritance;
 
 public class Animal { //parent class or super class
 
+    int x =100;
     public void walk(){
 
     }
@@ -12,7 +13,7 @@ public class Animal { //parent class or super class
     
 }
 
-class Pig extends Animal { //child or sub class
+class Pig extends Animal  { //child or sub class
 
         @Override
         public void walk() {
@@ -20,7 +21,7 @@ class Pig extends Animal { //child or sub class
         }
 }
 
-class dog extends Animal{
+class dog extends Animal {
 
     @Override
     public void walk() {

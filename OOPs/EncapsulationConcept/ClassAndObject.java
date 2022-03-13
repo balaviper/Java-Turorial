@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.EncapsulationConcept;
 
 public class ClassAndObject {
 

@@ -1,4 +1,4 @@
-package OOPs;
+package OOPs.EncapsulationConcept;
 
 public class Student {
 
@@ -29,10 +29,13 @@ public class Student {
         student2.rank("second"); // defining behaviours
 
         ValuableData vd = new ValuableData();
+
         vd.setMoney(100000);
         System.out.println(vd.getMoney());
+
         int addedMoney = addMoney(vd.getMoney());
         vd.setMoney(addedMoney);
+        
         System.out.println(vd.getMoney());
 
 
